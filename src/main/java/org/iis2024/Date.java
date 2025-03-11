@@ -20,6 +20,13 @@ public class Date {
   private final int month;
   private final int year;
 
+
+  // Constructor modified by the collaborator
+  public Date(int tag, int monat, int jahr) {
+    this.day = tag;
+    this.month = monat;
+    this.year = jahr;
+  }
   /**
    * Retrieves the day component of this date.
    *
